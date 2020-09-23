@@ -9,7 +9,7 @@ class Owner
   end
   
   def species
-    @species
+    @species= human
   end
   
 end
