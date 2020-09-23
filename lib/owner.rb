@@ -3,7 +3,6 @@ class Owner
   attr_reader :name, :species
   
   @@all = []
-  @@counter = 0 
   
   def initialize(name)
     @name = name
@@ -20,7 +19,7 @@ class Owner
   end
   
   def self.count
-    count
+    self.all.count
   end 
   
 end
