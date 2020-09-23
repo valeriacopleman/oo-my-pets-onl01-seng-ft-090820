@@ -9,4 +9,6 @@ class Owner
   
   def species
     @species
+  end
+  
 end
