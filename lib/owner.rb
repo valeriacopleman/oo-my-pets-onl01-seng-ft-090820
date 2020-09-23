@@ -8,8 +8,8 @@ class Owner
     
   end
   
-  def species
-    @species= human
+  def species(human)
+    @species
   end
   
 end
