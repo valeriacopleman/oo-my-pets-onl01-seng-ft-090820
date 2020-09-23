@@ -23,6 +23,6 @@ class Owner
   end 
   
   def reset_all
-    self.all.clear
+    self.all.empty
   end
 end
